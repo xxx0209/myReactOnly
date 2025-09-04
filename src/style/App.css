@@ -8,8 +8,10 @@
 
 /* img 이미지 태그의 크기를 픽셀로 지정 */
 img {
-  width: 300px;
-  height: 300px;
-  object-fit: cover; /* 이미지 비율 유지하면서 잘림 발생 가능 */
-  margin  :10px auto 10px auto; /* 위, 아래 10픽셀, 좌우 가운데 정렬 */
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  /* 이미지 비율 유지하면서 잘림 발생 가능 */
+  margin: 10px auto 10px auto;
+  /* 위, 아래 10픽셀, 좌우 가운데 정렬 */
 }

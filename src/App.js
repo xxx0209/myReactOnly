@@ -6,11 +6,7 @@ import AppRoutes from './routes/AppRoutes';
 import { menuData } from './routes/menuData';
 import './style/App.css';
 
-function App() {
-    let test = Symbol();
-    console.log(test);
-    console.log(test.toString());
-    console.log(test.description);
+function App() {    
     
     return (
         <div className="App">

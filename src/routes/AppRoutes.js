@@ -17,14 +17,19 @@ import AppSpreadOperator from '../components/ch02_es6_syntax/spread_operator';
 import AppClassComponent from '../components/ch03.component/components01';
 import AppFuntionComponent from '../components/ch03.component/components02';
 import AppComponentSeparate from '../components/ch03.component/component_separate';
+import AppUseProps from '../components/ch03.component/use_props';
+import AppFileSeparator from '../components/ch03.component/file_separator';
+import AppArrayAndTable01 from '../components/ch03.component/array_and_table_01';
 
-function AppRoutes(){
+function AppRoutes() {
+
     return (
         <Routes>
             {/* Route 컴포넌트는 2개의 속성을 가집니다.
                 path : URL 경로
                 element : 표시할 컴포넌트
             */}
+            <Route path="/" element={<AppLetConst />} />
             <Route path="/let_const" element={<AppLetConst />} />
             <Route path="/template_string" element={<AppTemplateString />} />
             <Route path="/make_subject_list" element={<AppMakeSubjectList />} />
@@ -32,10 +37,14 @@ function AppRoutes(){
             <Route path="/arrow_function" element={<ArrowFunction />} />
             <Route path="/array_map" element={<ArrayMap />} />
             <Route path="/spread_operator" element={<AppSpreadOperator />} />
-            
+
             <Route path="/components01" element={<AppClassComponent />} />
             <Route path="/components02" element={<AppFuntionComponent />} />
             <Route path="/component_separate" element={<AppComponentSeparate />} />
+            <Route path="/use_props" element={<AppUseProps />} />
+            <Route path="/file_separator" element={<AppFileSeparator />} />
+            <Route path="/array_and_table01" element={<AppArrayAndTable01 />} />
+
         </Routes>
     );
 };
