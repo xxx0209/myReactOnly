@@ -21,6 +21,12 @@ import AppUseProps from '../components/ch03.component/use_props';
 import AppFileSeparator from '../components/ch03.component/file_separator';
 import AppArrayAndTable01 from '../components/ch03.component/array_and_table_01';
 
+import AppArrayAndTable02 from '../components/ch03.component/array_and_table_02';
+import AppClickEvent from '../components/ch04. Event/click_event';
+import AppChangeEvent from '../components/ch04. Event/change_event';
+import AppMouseEvent from '../components/ch04. Event/mouse_event';
+import AppKeyEvent from '../components/ch04. Event/key_event';
+
 function AppRoutes() {
 
     return (
@@ -44,6 +50,12 @@ function AppRoutes() {
             <Route path="/use_props" element={<AppUseProps />} />
             <Route path="/file_separator" element={<AppFileSeparator />} />
             <Route path="/array_and_table01" element={<AppArrayAndTable01 />} />
+
+            <Route path="/array_and_table02" element={<AppArrayAndTable02 />} />
+            <Route path="/click_event" element={<AppClickEvent />} />
+            <Route path="/change_event" element={<AppChangeEvent />} />
+            <Route path="/mouse_event" element={<AppMouseEvent />} />
+            <Route path="/key_event" element={<AppKeyEvent />} />
 
         </Routes>
     );
