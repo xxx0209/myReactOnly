@@ -1,5 +1,3 @@
-filteredArray = theArray.filter(async(entry)=> {
-    const response = await fetch(entry.url);
-    const keep = response.ok ? (await response.json()).keep : false;
-    return keep;
-});
+const str ="987654321";
+const a = Array.from(str, parseInt);
+console.log(a)
