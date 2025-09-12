@@ -1,0 +1,14 @@
+/* 공통 InputGroup 그룹에 동일 스타일 지정 */
+.custom-input-group {
+    margin: 0 0 0 0;
+}
+
+/* InputGroup.Text (라벨 부분) 스타일 */
+/* custom-input-group 항목 아래에 존재하는 input-group-text에 대한 스타일 지정 */
+.custom-input-group .input-group-text {
+    min-width: 120px;
+    font-weight: 600;
+    background-color: #f8f9fa;
+    color: #333;
+    border-radius: 0.5rem 0 0 0.5rem;
+}

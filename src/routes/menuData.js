@@ -46,9 +46,20 @@ export const menuData = [
             { path: "/use_state_03", label: '스테이트 실습 03' },
             { path: "/use_state_04", label: '스테이트 실습 04' },
             { path: "/use_effect_01", label: '사용 효과 01' },
-            
-
+            { path: "/use_effect_02", label: '사용 효과 02' },
+            { path: "/use_effect_03", label: '사용 효과 03' },
         ]
     },
+    {
+        chapter: "ch06.bootstrap",
+        items: [
+            { path: "/coffee_bread_01", label: 'IT Cafe 01' },
+            { path: "/coffee_bread_02", label: 'IT Cafe 02' },
+            { path: "/coffee_bread_03", label: 'IT Cafe 03' },
+            { path: "/coffee_bread_04", label: 'IT Cafe 04' },
+            { path: "/coffee_bread_05", label: 'IT Cafe 05' },
+        ]
+    },
+
 
 ];

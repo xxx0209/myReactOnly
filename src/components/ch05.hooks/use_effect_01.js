@@ -32,7 +32,11 @@ function App() {
 
     const MyTimer = () => {
         // setTimeout(동작, 인터벌);
-        setTimeout(SomeAction, interval);
+        const myTimeout = setTimeout(SomeAction, interval);
+
+        if (count === 10) {
+            clearTimeout(myTimeout);
+        }
     }
 
     useEffect(MyTimer);

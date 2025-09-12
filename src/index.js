@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 // 리엑트 라우터를 사용하기 위해서 BrowserRouter 컴포넌트를 App 외부에 감싸주는 역활
 // App.js 파일을 index.js 파일이 포함하고 있으므로 , BrowserRouter는 index.js파일을 한번만 명시해 주면 된다.
